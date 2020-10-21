@@ -1,7 +1,7 @@
 # Data-Mining-Regression-Analysis
 #### StockX-2019 Data Contest
 **Yeezy & OFF-WHITE Sales Price Prediction**
-* In this project, we download a dataset that is about Luxuary Shoes transaction of online platform(StockX). 
+* In this project, we downloaded a dataset that is about Luxuary Shoes transaction of online platform(StockX). 
   Then, we made derived variable from the dataset and split our data into training and test sets and scaled for data modeling.
   Evaluate our model using RMSE of test dataset, and finally we use model to predict sales price of new model. 
   
@@ -15,7 +15,7 @@ We've downloaded a StockX transaction dataset, which contains Yeezy and Off-whit
 
 ### Preprocessing and EDA
   * Made derived variable for regression modeling (date_diff, price_ratio,etc)
-  * Added design variable of Yeezy (handle, color,letting, etc)
+  * Added design variable of Yeezy (handle, color,lettering, etc)
   * Removed missing value, outlier(Upperfence of IQR 2.0)
 
 
