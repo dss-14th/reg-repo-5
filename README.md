@@ -8,12 +8,12 @@
   
 * team : 김희주, 이원진, 정성용
 
-#### Data : StockX-Data-Contest-2019-3.csv
+### Data : StockX-Data-Contest-2019-3.csv
 We've downloaded a StockX transaction dataset, which contains Yeezy and Off-white sales price, price date, design, etc.
 
 * Data Source : [StockX-dataset](https://www.kaggle.com/hudsonstuck/stockx-data-contest)
 
-#### Preprocessing and EDA
+### Preprocessing and EDA
   * Made derived variable for regression modeling (date_diff, price_ratio,etc)
   * Added design variable of Yeezy (handle, color,letting, etc)
   * Removed missing value, outlier(Upperfence of IQR 2.0)
